@@ -1,4 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
   <path fill="#f00" d="M0 0h300v200h-300"/>
-  <path fill="#ff0" d="M49 25l6 17h18l-15 11 5 17-14-10-14 10 5-17-15-11h18m57 -28l3 9h9l-7 6,2 9,-7-6,-7 6,2-9,-7-6h9m17 18l3 9h9l-7 6,2 9,-7-6,-7 6,2-9,-7-6h9m-6 18l3 9h9l-7 6,2 9,-7-6,-7 6,2-9,-7-6h9m-23 10l3 9h9l-7 6,2 9,-7-6,-7 6,2-9,-7-6h9"/>
+  <path fill="#ff0" id="star" d="M49 25l6 17h18l-15 11 5 17-14-10-14 10 5-17-15-11h18"/>
+  <use href="#star" transform="translate(70 18)scale(0.4)rotate(-40)"/>
+  <use href="#star" transform="translate(85 27)scale(0.4)rotate(-16)"/>
+  <use href="#star" transform="translate(91 43)scale(0.4)"/>
+  <use href="#star" transform="translate(83 58)scale(0.4)rotate(14)"/>
 </svg>

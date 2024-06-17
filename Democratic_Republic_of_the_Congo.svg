@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <mask id="mask">
+    <path fill="#000" d="M-100-100h500v400h-500"/>
+    <path fill="#fff" d="M0 0h300v200h-300"/>
+  </mask>
+  <g mask="url(#mask)">
+    <path fill="#2780f5" d="M0 0h300v200h-300"/>
+    <path fill="#fad91d" d="M49 25l6 17h18l-15 11 5 17-14-10-14 10 5-17-15-11h18" transform="scale(1.4)translate(-15 -12)"/>
+    <path fill="#fad91d" d="M0 140l300-150v70l-300 150"/>
+    <path fill="#db1a14" d="M0 150l300-150v50l-300 150"/>
+  </g>
+</svg>

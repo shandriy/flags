@@ -1,8 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 200">
-  <path fill="#f00" d="M0 0h300v200h-300"/>
-  <path fill="#ff0" id="star" d="M49 25l6 17h18l-15 11 5 17-14-10-14 10 5-17-15-11h18"/>
-  <use xlink:href="#star" transform="translate(70 18)scale(0.4)rotate(-40)"/>
-  <use xlink:href="#star" transform="translate(85 27)scale(0.4)rotate(-16)"/>
-  <use xlink:href="#star" transform="translate(91 43)scale(0.4)"/>
-  <use xlink:href="#star" transform="translate(83 58)scale(0.4)rotate(14)"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 600">
+  <path fill="#ee1c25" d="M0 0h900v600h-900"/>
+  <path fill="#ff0" id="s" d="M145.595 60l20.206 62.188h65.389l-52.901 38.435 20.207 62.189-52.901-38.435-52.901 38.435 20.207-62.189-52.901-38.435h65.389"/>
+  <g transform="rotate(-49 300 60)">
+    <use xlink:href="#s" transform="translate(250 10)scale(0.333)"/>
+  </g>
+  <g transform="rotate(-26.13 360 120)">
+    <use xlink:href="#s" transform="translate(310 70)scale(0.333)"/>
+  </g>
+  <g transform="rotate(-2.1 360 210)">
+    <use xlink:href="#s" transform="translate(310 160)scale(0.333)"/>
+  </g>
+  <g transform="rotate(20.7 300 270)">
+    <use xlink:href="#s" transform="translate(250 220)scale(0.333)"/>
+  </g>
 </svg>

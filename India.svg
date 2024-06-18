@@ -1,25 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 200">
-  <path fill="#f15e1a" d="M0 0h300v200h-300"/>
-  <path fill="#fff" d="M0 67h300v133h-300"/>
-  <path fill="#0a6625" d="M0 133h300v67h-300"/>
-  <circle r="27" cx="150" cy="100" fill="none" stroke="#2d2174" stroke-width="4"/>
-  <circle r="5" cx="150" cy="100" fill="#2d2174"/>
-  <path id="line" stroke="#2d2174" stroke-width="1" d="M150 73v54"/>
-  <use xlink:href="#line" transform="rotate(10 150 100)"/>
-  <use xlink:href="#line" transform="rotate(20 150 100)"/>
-  <use xlink:href="#line" transform="rotate(30 150 100)"/>
-  <use xlink:href="#line" transform="rotate(40 150 100)"/>
-  <use xlink:href="#line" transform="rotate(50 150 100)"/>
-  <use xlink:href="#line" transform="rotate(60 150 100)"/>
-  <use xlink:href="#line" transform="rotate(70 150 100)"/>
-  <use xlink:href="#line" transform="rotate(80 150 100)"/>
-  <use xlink:href="#line" transform="rotate(90 150 100)"/>
-  <use xlink:href="#line" transform="rotate(100 150 100)"/>
-  <use xlink:href="#line" transform="rotate(110 150 100)"/>
-  <use xlink:href="#line" transform="rotate(120 150 100)"/>
-  <use xlink:href="#line" transform="rotate(130 150 100)"/>
-  <use xlink:href="#line" transform="rotate(140 150 100)"/>
-  <use xlink:href="#line" transform="rotate(150 150 100)"/>
-  <use xlink:href="#line" transform="rotate(160 150 100)"/>
-  <use xlink:href="#line" transform="rotate(170 150 100)"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 600">
+  <path fill="#ff671f" d="M0 0h900v200h-900"/>
+  <path fill="#fff" d="M0 200h900v200h-900"/>
+  <path fill="#046a38" d="M0 400h900v200h-900"/>
+  <circle r="86.25" cx="450" cy="300" fill="none" stroke="#06038d" stroke-width="12.5"/>
+  <circle r="16" cx="450" cy="300" fill="#06038d"/>
+  <g id="h">
+    <g id="r">
+      <g id="t">
+        <g id="s">
+          <path fill="#06038d" d="M450 300l-1-16l-2-16l3-48l3 48l-2 16"/>
+          <circle r="3.5" cx="450" cy="220" fill="#06038d" transform="rotate(7.5 450 300)"/>
+        </g>
+        <use xlink:href="#s" transform="rotate(15 450 300)"/>
+      </g>
+      <use xlink:href="#t" transform="rotate(30 450 300)"/>
+    </g>
+    <use xlink:href="#r" transform="rotate(60 450 300)"/>
+    <use xlink:href="#r" transform="rotate(120 450 300)"/>
+  </g>
+  <use xlink:href="#h" transform="rotate(180 450 300)"/>
 </svg>

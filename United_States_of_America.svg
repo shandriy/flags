@@ -1,24 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 200">
-  <path fill="#fff" d="M0 0h300v200h-300"/>
-  <path fill="#b83a3a" d="M0 0h300v15h-300M0 31h300v15h-300M0 62h300v15h-300M0 92h300v15h-300M0 123h300v15h-300M0 154h300v15h-300M0 185h300v15h-300"/>
-  <path fill="#3a3a91" d="M0 0v107h150v-107"/>
-  <g transform="translate(0.7 11)scale(1.27 1.1)">
-    <g id="pair">
-      <g id="short-row" transform="translate(9.5 0)">
-        <path fill="#fff" id="star" d="M49 25l6 17h18l-15 11 5 17-14-10-14 10 5-17-15-11h18" transform="scale(0.2)"/>
-        <use xlink:href="#star" transform="translate(19 0)"/>
-        <use xlink:href="#star" transform="translate(38 0)"/>
-        <use xlink:href="#star" transform="translate(57 0)"/>
-        <use xlink:href="#star" transform="translate(76 0)"/>
-      </g>
-      <g id="long-row" transform="translate(0 9)">
-        <use xlink:href="#star"/>
-        <use xlink:href="#short-row" transform="translate(9.5 0)"/>
-      </g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 600">
+  <path fill="#f00" d="M0 0L900 0 900 600 0 600"/>
+  <g id="d">
+    <g id="l">
+      <path fill="#b22234" d="M0 0h900v46.154h-900"/>
+      <path fill="#fff" d="M0 46.154h900v46.154h-900"/>
     </g>
-    <use xlink:href="#long-row" transform="translate(0-19)"/>
-    <use xlink:href="#pair" transform="translate(0 19)"/>
-    <use xlink:href="#pair" transform="translate(0 38)"/>
-    <use xlink:href="#pair" transform="translate(0 57)"/>
+    <use xlink:href="#l" transform="translate(0 92.308)"/>
   </g>
+  <use xlink:href="#d" transform="translate(0 184.616)"/>
+  <use xlink:href="#d" transform="translate(0 369.232)"/>
+  <path fill="#b22234" d="M0 553.848h900v46.152h-900"/>
+  <path fill="#3c3b6e" d="M0 0h456v323.078h-456"/>
+  <g id="q">
+    <g id="b">
+      <g id="x">
+        <g id="r">
+          <g id="t">
+            <path fill="#fff" id="s" d="M38 13.8458l4.145 12.757h13.413l-10.851 7.884 4.144 12.757-10.851-7.884-10.851 7.884 4.144-12.757-10.851-7.884h13.413"/>
+            <use xlink:href="#s" transform="translate(76 0)"/>
+          </g>
+          <use xlink:href="#s" transform="translate(152 0)"/>
+        </g>
+        <use xlink:href="#r" transform="translate(228 0)"/>
+      </g>
+      <use xlink:href="#r" transform="translate(38 32.3078)"/>
+      <use xlink:href="#t" transform="translate(266 32.3078)"/>
+    </g>
+    <use xlink:href="#b" transform="translate(0 64.6156)"/>
+  </g>
+  <use xlink:href="#q" transform="translate(0 129.2312)"/>
+  <use xlink:href="#x" transform="translate(0 258.4624)"/>
 </svg>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
-  <path fill="#dd2525" d="M0 0h300v200h-300"/>
-  <path fill="#dddd27" d="M0-25l6 17h18l-15 11 5 17-14-10-14 10 5-17-15-11h18" transform="scale(2.5)translate(60 40)"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <path fill="#da251d" d="M0 0h900v600h-900"/>
+  <path fill="#ff0" d="M450 120l40.413 124.377h130.777l-105.801 76.869 40.413 124.377-105.802-76.869-105.802 76.869 40.413-124.377-105.801-76.869h130.777"/>
 </svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 600">
+  <path fill="#0038a8" d="M0 0h900v300h-380.385"/>
+  <path fill="#ce1126" d="M0 600h900v-300h-380.385"/>
+  <path fill="#fff" d="M0 0l519.615 300-519.615 300"/>
+  <circle fill="#fcd116" r="60" cx="186.667" cy="300"/>
+  <g id="h">
+    <g id="t">
+      <path id="p" fill="#fcd116" d="M186.667 300l78.548-89.567h11.019v11.019m-89.567 78.548l68.727-89.567h-8.88m-59.847 89.567l89.567-68.727v8.88"/>
+      <use xlink:href="#p" transform="rotate(45 186.667 300)"/>
+    </g>
+    <use xlink:href="#t" transform="rotate(90 186.667 300)"/>
+  </g>
+  <use xlink:href="#h" transform="rotate(180 186.667 300)"/>
+  <path id="s" fill="#fcd116" d="M459.615 300l-22.546-7.837-0.487-23.865-14.42 19.022-22.847-6.913 13.634 19.593-13.634 19.593 22.847-6.913 14.42 19.022 0.487-23.865"/>
+  <use xlink:href="#s" transform="rotate(24 46.667 80.829)translate(-379.615-219.171)"/>
+  <use xlink:href="#s" transform="rotate(48 46.667 519.171)translate(-379.615 219.171)"/>
+</svg>

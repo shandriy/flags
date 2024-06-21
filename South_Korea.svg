@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <path fill="#fff" d="M0 0h900v600h-900"/>
+  <g transform="rotate(33.7 450 300)">
+    <path fill="#0047a0" d="M300 300a75 75 0 1 0 150 0 75 75 0 1 1 150 0 150 150 0 1 1-300 0"/>
+    <path fill="#cd2e3a" d="M300 300a75 75 0 1 0 150 0 75 75 0 1 1 150 0 150 150 0 1 0-300 0"/>
+  </g>
+  <path transform="rotate(33.7 450 300)translate(-275)" stroke="#000" stroke-width="25" d="M412.5 225v150m37.5-150v150m37.5-150v150"/>
+  <path transform="rotate(-33.7 450 300)translate(-275)" stroke="#000" stroke-width="25" d="M412.5 225v150m37.5-150v68.75m0 12.5v68.75m37.5-150v150"/>
+  <path transform="rotate(-33.7 450 300)translate(275)" stroke="#000" stroke-width="25" d="M412.5 225v68.75m0 12.5v68.75m37.5-150v150m37.5-150v68.75m0 12.5v68.75"/>
+  <path transform="rotate(33.7 450 300)translate(275)" stroke="#000" stroke-width="25" d="M412.5 225v68.75m0 12.5v68.75m37.5-150v68.75m0 12.5v68.75m37.5-150v68.75m0 12.5v68.75"/>
+</svg>

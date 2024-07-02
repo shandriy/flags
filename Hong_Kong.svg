@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path fill="#ee1c25" d="M0 0h900v600H0"/>
+  <g id="t">
+    <g id="p" transform="translate(450 300)scale(89.659 89.659)rotate(13.48)">
+      <mask id="m">
+        <path fill="#fff" d="M1 0a1 1 0 1 1-1-1l-0.5 1 1.088 0.809"/>
+        <circle r="0.5" cx="-0.5" cy="0" fill="#fff"/>
+        <circle r="0.309" cx="-0.138" cy="-0.724" fill="#000"/>
+        <circle r="0.428" cx="0.245" cy="0.554" fill="#000"/>
+        <circle r="0.766" cx="0.225" cy="0.219" fill="none" stroke="#000" stroke-width="0.017"/>
+        <circle r="0.175" cx="-0.5" cy="0" fill="#fff"/>
+        <path fill="#000" d="M0 0h1v1H0.5"/>
+        <path fill="#fff" d="M-1 0a0.5 0.5 0 1 1 1 0"/>
+        <path fill="#fff" d="M-1 0a0.5 0.5 0 1 1 1 0"/>
+        <path fill="#000" d="M-0.325 0L-0.642-0.103-0.446 0.166V-0.166L-0.642 0.103" fill-rule="nonzero"/>
+      </mask>
+      <circle r="1" cx="0" cy="0" fill="#fff" mask="url(#m)" transform="translate(0-1)rotate(16.637)"/>
+    </g>
+    <use xlink:href="#p" transform="rotate(72 450 300)"/>
+  </g>
+  <use xlink:href="#t" transform="rotate(144 450 300)"/>
+  <use xlink:href="#p" transform="rotate(-72 450 300)"/>
+</svg>
